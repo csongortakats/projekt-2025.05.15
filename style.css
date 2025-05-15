@@ -9,10 +9,6 @@ body {
     display: flex;
     align-items: center;
   }
-#logo {
-    width: 200px;
-    height: auto;
-  }
 
   .team-member img {
     border-radius: 50%;
