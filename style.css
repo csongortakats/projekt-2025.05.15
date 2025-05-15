@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  background-size: cover;
+  }
+  .hero {
+    background: url('képek/háttér.webp') center/cover no-repeat;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+  }
+#logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .team-member img {
+    border-radius: 50%;
+  }
+  footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .btn-primary {
+    background-color: #0056b3;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004494;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .logo {
+    width: 300px;
+    height: auto;
+  }

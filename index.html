@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCreative - Digitális Ügynökség</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- Navigáció -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow ">
+    <div class="container">
+      <img src="képek/logo-transparent.png" alt="logo" style="width: 50px;" class="me-2">
+      <a class="navbar-brand" href="">NovaCreative</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Rólunk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Szolgáltatások</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Csapat</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kapcsolat</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero szekció -->
+  <header class="hero text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Digitális megoldások a jövőért</h1>
+      <p class="lead">Webfejlesztés, branding és online marketing egy helyen</p>
+      <a href="#services" class="btn btn-primary btn-lg mt-3">Szolgáltatásaink</a>
+    </div>
+  </header>
+
+  <!-- Bemutatkozás -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <img src="képek/logo.png" alt="logó" class="logo mb-4">
+      <h2 class="mb-4">Rólunk</h2>
+      <p class="lead">A NovaCreative egy budapesti székhelyű kreatív ügynökség, amely elkötelezett a modern technológiák és design iránt. Szenvedélyünk a digitális világ formálása és ügyfeleink sikerének támogatása.</p>
+    </div>
+  </section>
+
+  <!-- Szolgáltatások -->
+  <section id="services" class="py-5 bg-light text-dark">
+    <div class="container">
+      <h2 class="text-center mb-4">Szolgáltatásaink</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="képek/webfejlesztés.jpg" class="card-img-top" alt="Webfejlesztés">
+            <div class="card-body">
+              <h5 class="card-title">Webfejlesztés</h5>
+              <p class="card-text">Reszponzív, gyors és modern weboldalak tervezése és fejlesztése.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="képek/Brandepites.png" class="card-img-top" alt="Brandépítés">
+            <div class="card-body">
+              <h5 class="card-title">Brandépítés</h5>
+              <p class="card-text">Arculattervezés, logó készítés és vizuális kommunikáció.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="képek/Marketing.jpeg" class="card-img-top" alt="Online marketing">
+            <div class="card-body">
+              <h5 class="card-title">Online marketing</h5>
+              <p class="card-text">SEO, PPC, közösségi média kampányok és tartalomgyártás.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Csapat -->
+  <section id="team" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Csapatunk</h2>
+      <div class="row">
+        <div class="col-md-4 team-member">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Munkatárs" class="img-fluid mb-3" width="150">
+          <h5>Kovács Balázs</h5>
+          <p class="text-muted">CEO / Alapító</p>
+        </div>
+        <div class="col-md-4 team-member">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Munkatárs" class="img-fluid mb-3" width="150">
+          <h5>Nagy Zsófia</h5>
+          <p class="text-muted">Design vezető</p>
+        </div>
+        <div class="col-md-4 team-member">
+          <img src="https://randomuser.me/api/portraits/men/24.jpg" alt="Munkatárs" class="img-fluid mb-3" width="150">
+          <h5>Szabó Gergely</h5>
+          <p class="text-muted">Marketing szakértő</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kapcsolat -->
+  <section id="contact" class="py-5 bg-light text-dark">
+    <div class="container">
+      <h2 class="text-center mb-4">Kapcsolat</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Név</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Üzenet</label>
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Küldés</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lábléc -->
+  <footer class="text-center bg-black text-white py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 NovaCreative. Minden jog fenntartva.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
