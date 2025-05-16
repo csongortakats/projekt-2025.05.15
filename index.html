@@ -9,7 +9,7 @@
   
 </head>
 <body>
-  <!-- Navigáció -->
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow ">
     <div class="container">
       <img src="képek/logo-transparent.png" alt="logo" style="width: 50px;" class="me-2">
@@ -20,7 +20,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">Rólunk</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Szolgáltatások</a></li>
+           <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Szolgáltatások
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#Webfejlesztes">Webfejlesztés</a></li>
+            <li><a class="dropdown-item" href="#Brandepites">Brandépites</a></li>
+           <li><a class="dropdown-item" href="#Marketing">Online Marketing</a></li>
+          </ul>
+        </li>
           <li class="nav-item"><a class="nav-link" href="#team">Csapat</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Kapcsolat</a></li>
         </ul>
@@ -28,7 +37,7 @@
     </div>
   </nav>
 
-  <!-- Hero szekció -->
+
   <header class="hero text-center">
     <div class="container">
       <h1 class="display-4 fw-bold">Digitális megoldások a jövőért</h1>
@@ -37,7 +46,7 @@
     </div>
   </header>
 
-  <!-- Bemutatkozás -->
+ 
   <section id="about" class="py-5">
     <div class="container text-center">
       <img src="képek/logo.png" alt="logó" class="logo mb-4">
@@ -46,7 +55,7 @@
     </div>
   </section>
 
-  <!-- Szolgáltatások -->
+
   <section id="services" class="py-5 bg-light text-dark">
     <div class="container">
       <h2 class="text-center mb-4">Szolgáltatásaink</h2>
@@ -82,7 +91,7 @@
     </div>
   </section>
 
-  <!-- Csapat -->
+  
   <section id="team" class="py-5">
     <div class="container text-center">
       <h2 class="mb-4">Csapatunk</h2>
@@ -106,7 +115,6 @@
     </div>
   </section>
 
-  <!-- Kapcsolat -->
   <section id="contact" class="py-5 bg-light text-dark">
     <div class="container">
       <h2 class="text-center mb-4">Kapcsolat</h2>
@@ -132,7 +140,7 @@
     </div>
   </section>
 
-  <!-- Lábléc -->
+
   <footer class="text-center bg-black text-white py-4">
     <div class="container">
       <p class="mb-0">&copy; 2025 NovaCreative. Minden jog fenntartva.</p>
