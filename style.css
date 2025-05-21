@@ -21,6 +21,7 @@ body {
     padding: 40px 0;
     color: orange;
   }
+  
   footer p {
     color: orange;
     font-size: 1.2rem;
@@ -43,10 +44,6 @@ body {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
   }
 
   .logo {
@@ -99,4 +96,10 @@ img.img-fluid.rounded:hover {
 
 section.container {
   margin-bottom: 3rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
