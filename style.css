@@ -113,7 +113,7 @@ section.container {
   }
 
   .dropdown-menu .dropdown-item:hover,
-  .dropdown-menu .dropdown-item:focus,{
+  .dropdown-menu .dropdown-item:focus{
     background-color: #fff !important;
     color: #000 !important;
   }
