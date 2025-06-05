@@ -26,7 +26,11 @@ body {
     color: orange;
     font-size: 1.2rem;
   }
-  
+
+   footer a {
+    color: white;
+  }
+
   .btn-primary {
     background-color: #0056b3;
     border: none;
